@@ -1,2 +1,25 @@
-# Real-Time-News-Aggregator-Desktop-Web-App-using-Python-
-Real-time news aggregator built with Python that fetches top 20 headlines using Google News RSS. Supports both desktop (Tkinter) and web (Streamlit) interfaces, with XML parsing, clean UI, and dynamic content without API key.
+
+# Real-Time News App (Streamlit)
+
+This is a simple web application that shows the **latest top 20 real-time news** using Google News RSS feed.
+
+##  Features
+
+- Fetches latest news every time the app loads
+- Displays top 20 headlines
+- Clean UI using Streamlit
+- No API key required
+- Click "Read More" to open full article
+
+##  Tech Stack
+
+- Python
+- Streamlit
+- Requests
+- XML Parsing
+
+## ▶Run Locally
+
+```bash
+pip install -r requirements.txt
+python -m streamlit run app.py
